@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGKJDataDetaileViewController">
+            <connections>
+                <outlet property="barbottomview" destination="Jcq-2h-w1E" id="O9M-sN-oqF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="willOrder" destination="KBo-mk-kz1" id="T0j-Ib-ThN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="693"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jcq-2h-w1E">
+                    <rect key="frame" x="0.0" y="649" width="447" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-pa-hRu">
+                            <rect key="frame" x="347" y="0.0" width="100" height="44"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="SuN-4s-Aqa"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="联系客服" image="artichoke"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvI-p5-MqB">
+                            <rect key="frame" x="247" y="0.0" width="100" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="x2Y-Fu-VL1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="聊一聊" image="carrot">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBo-mk-kz1">
+                            <rect key="frame" x="0.0" y="0.0" width="247" height="44"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="预定订单" backgroundImage="mainCellBackground">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.23921568630000001" green="0.45098039220000002" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ZvI-p5-MqB" firstAttribute="leading" secondItem="KBo-mk-kz1" secondAttribute="trailing" id="BLn-o4-qKP"/>
+                        <constraint firstAttribute="height" constant="44" id="BMA-6s-cmM"/>
+                        <constraint firstAttribute="trailing" secondItem="Ggb-pa-hRu" secondAttribute="trailing" id="Cf3-IA-PTp"/>
+                        <constraint firstItem="KBo-mk-kz1" firstAttribute="top" secondItem="Jcq-2h-w1E" secondAttribute="top" id="HuY-Ow-ujm"/>
+                        <constraint firstAttribute="bottom" secondItem="Ggb-pa-hRu" secondAttribute="bottom" id="Qtw-Yd-Riq"/>
+                        <constraint firstItem="KBo-mk-kz1" firstAttribute="leading" secondItem="Jcq-2h-w1E" secondAttribute="leading" id="ZqY-0l-Pb7"/>
+                        <constraint firstItem="Ggb-pa-hRu" firstAttribute="top" secondItem="Jcq-2h-w1E" secondAttribute="top" id="bO9-59-hMF"/>
+                        <constraint firstAttribute="bottom" secondItem="KBo-mk-kz1" secondAttribute="bottom" id="fGE-XY-DXv"/>
+                        <constraint firstAttribute="bottom" secondItem="ZvI-p5-MqB" secondAttribute="bottom" id="vqP-Ox-QFI"/>
+                        <constraint firstItem="Ggb-pa-hRu" firstAttribute="leading" secondItem="ZvI-p5-MqB" secondAttribute="trailing" id="xQE-3t-K04"/>
+                        <constraint firstItem="ZvI-p5-MqB" firstAttribute="top" secondItem="Jcq-2h-w1E" secondAttribute="top" id="zEj-z5-C0J"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Jcq-2h-w1E" secondAttribute="trailing" id="IWG-cp-U1j"/>
+                <constraint firstAttribute="bottom" secondItem="Jcq-2h-w1E" secondAttribute="bottom" id="kAs-ET-7IJ"/>
+                <constraint firstItem="Jcq-2h-w1E" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zE1-w9-Lyh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="127.5" y="335.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="artichoke" width="23" height="23"/>
+        <image name="carrot" width="23" height="23"/>
+        <image name="mainCellBackground" width="50" height="50"/>
+    </resources>
+</document>

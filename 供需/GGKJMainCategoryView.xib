@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GGKJMainCategoryView">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="97"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAQ-Ve-k7J">
+                    <rect key="frame" x="0.0" y="0.0" width="101" height="45"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.80784313725490198" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="C1w-cn-u40"/>
+                        <constraint firstAttribute="height" constant="44" id="e8c-3C-3Fa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="水产" image="cholesterol-2">
+                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="e8c-3C-3Fa"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpS-VT-F7W">
+                    <rect key="frame" x="111" y="0.0" width="101" height="45"/>
+                    <color key="backgroundColor" red="0.84705882352941175" green="0.0" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="公益" image="cholesterol"/>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fez-Fj-P8a">
+                    <rect key="frame" x="0.0" y="55" width="101" height="40"/>
+                    <color key="backgroundColor" red="0.23921568627450981" green="0.45098039215686275" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="S4z-hQ-JTx"/>
+                        <constraint firstAttribute="height" constant="40" id="yfS-EG-B8T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="15" maxY="0.0"/>
+                    <state key="normal" title="水果" image="cucumber"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="S4z-hQ-JTx"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUZ-aZ-YIb">
+                    <rect key="frame" x="222" y="0.0" width="101" height="45"/>
+                    <color key="backgroundColor" red="0.45098039215686275" green="0.0" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="农作物" image="egg-plant"/>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fln-e1-sKO">
+                    <rect key="frame" x="111" y="57" width="101" height="40"/>
+                    <color key="backgroundColor" red="0.43137254901960786" green="0.75294117647058822" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="禽兽蛋类" image="radish"/>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K8-zy-CWR">
+                    <rect key="frame" x="220" y="55" width="101" height="40"/>
+                    <color key="backgroundColor" red="0.68627450980392157" green="0.55686274509803924" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="其它" image="mushroom"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DAQ-Ve-k7J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6Go-L7-PYv"/>
+                <constraint firstItem="fez-Fj-P8a" firstAttribute="top" secondItem="DAQ-Ve-k7J" secondAttribute="bottom" constant="10" id="Akl-Nd-yST"/>
+                <constraint firstItem="6K8-zy-CWR" firstAttribute="leading" secondItem="fln-e1-sKO" secondAttribute="trailing" constant="10" id="AoQ-uR-om4"/>
+                <constraint firstAttribute="trailing" secondItem="6K8-zy-CWR" secondAttribute="trailing" id="CTG-oH-cfY"/>
+                <constraint firstItem="fez-Fj-P8a" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Cbv-8I-QDI"/>
+                <constraint firstItem="fln-e1-sKO" firstAttribute="height" secondItem="fez-Fj-P8a" secondAttribute="height" id="Cvt-da-n1s"/>
+                <constraint firstItem="fez-Fj-P8a" firstAttribute="top" secondItem="DAQ-Ve-k7J" secondAttribute="bottom" constant="10" id="D6W-hi-v7Q"/>
+                <constraint firstAttribute="trailing" secondItem="BUZ-aZ-YIb" secondAttribute="trailing" id="F7f-zC-84j"/>
+                <constraint firstItem="xpS-VT-F7W" firstAttribute="leading" secondItem="DAQ-Ve-k7J" secondAttribute="trailing" constant="10" id="GCz-dA-9cq"/>
+                <constraint firstItem="xpS-VT-F7W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JR8-WL-4tp"/>
+                <constraint firstItem="6K8-zy-CWR" firstAttribute="width" secondItem="fez-Fj-P8a" secondAttribute="width" id="OH1-39-eXs"/>
+                <constraint firstAttribute="bottom" secondItem="fln-e1-sKO" secondAttribute="bottom" id="P46-C1-34q"/>
+                <constraint firstItem="fln-e1-sKO" firstAttribute="width" secondItem="fez-Fj-P8a" secondAttribute="width" id="Rvp-d8-ckM"/>
+                <constraint firstItem="BUZ-aZ-YIb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SRw-bq-e3q"/>
+                <constraint firstItem="xpS-VT-F7W" firstAttribute="height" secondItem="DAQ-Ve-k7J" secondAttribute="height" id="SrO-Qw-tor"/>
+                <constraint firstItem="fln-e1-sKO" firstAttribute="leading" secondItem="fez-Fj-P8a" secondAttribute="trailing" constant="10" id="Tco-7g-gqf"/>
+                <constraint firstItem="BUZ-aZ-YIb" firstAttribute="width" secondItem="DAQ-Ve-k7J" secondAttribute="width" id="bZR-Nf-yy3"/>
+                <constraint firstItem="BUZ-aZ-YIb" firstAttribute="leading" secondItem="xpS-VT-F7W" secondAttribute="trailing" constant="10" id="gUB-7t-8zr"/>
+                <constraint firstItem="DAQ-Ve-k7J" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hqq-rv-eHg"/>
+                <constraint firstAttribute="bottom" secondItem="6K8-zy-CWR" secondAttribute="bottom" id="iWa-bu-eQh"/>
+                <constraint firstAttribute="bottom" secondItem="fez-Fj-P8a" secondAttribute="bottom" id="iiQ-5Y-rc4"/>
+                <constraint firstItem="xpS-VT-F7W" firstAttribute="width" secondItem="DAQ-Ve-k7J" secondAttribute="width" id="rfk-bE-soB"/>
+                <constraint firstItem="xpS-VT-F7W" firstAttribute="height" secondItem="DAQ-Ve-k7J" secondAttribute="height" id="s9D-LI-g93"/>
+                <constraint firstItem="DAQ-Ve-k7J" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sS2-U8-lqH"/>
+                <constraint firstItem="BUZ-aZ-YIb" firstAttribute="height" secondItem="DAQ-Ve-k7J" secondAttribute="height" id="tKQ-jd-WOj"/>
+                <constraint firstAttribute="bottom" secondItem="fez-Fj-P8a" secondAttribute="bottom" id="wsR-jG-dYg"/>
+                <constraint firstItem="6K8-zy-CWR" firstAttribute="height" secondItem="fez-Fj-P8a" secondAttribute="height" id="zBz-Gl-hWL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6Go-L7-PYv"/>
+                    <exclude reference="Akl-Nd-yST"/>
+                    <exclude reference="wsR-jG-dYg"/>
+                    <exclude reference="s9D-LI-g93"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="categoryBtn" destination="6K8-zy-CWR" id="kPE-yz-eHb"/>
+            </connections>
+            <point key="canvasLocation" x="-569.5" y="-241.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cholesterol" width="23" height="23"/>
+        <image name="cholesterol-2" width="23" height="23"/>
+        <image name="cucumber" width="28" height="28"/>
+        <image name="egg-plant" width="28" height="28"/>
+        <image name="mushroom" width="30" height="30"/>
+        <image name="radish" width="28" height="28"/>
+    </resources>
+</document>

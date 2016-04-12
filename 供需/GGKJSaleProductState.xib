@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GGKJSaleProductState"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t3" translatesAutoresizingMaskIntoConstraints="NO" id="Pbj-Sv-Aav">
+                    <rect key="frame" x="10" y="10" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="aJ5-k2-iVw"/>
+                        <constraint firstAttribute="width" constant="50" id="fhx-i9-ffI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张三丰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceN-Ti-mbd">
+                    <rect key="frame" x="70" y="10" width="54" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="54" id="48G-4c-n65"/>
+                        <constraint firstAttribute="height" constant="21" id="NtW-xM-c52"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WFt-KE-Vcw">
+                    <rect key="frame" x="216" y="10" width="68" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="68" id="Ewp-TA-SDN"/>
+                        <constraint firstAttribute="height" constant="30" id="UQJ-cP-awR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="+ 加关注" backgroundImage="mainCellBackground">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="河南省商丘市夏邑县" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UeX-Xo-H8x">
+                    <rect key="frame" x="70" y="39" width="126" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Pbj-Sv-Aav" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="6cd-UB-WRn"/>
+                <constraint firstItem="ceN-Ti-mbd" firstAttribute="leading" secondItem="Pbj-Sv-Aav" secondAttribute="trailing" constant="10" id="7UA-dx-lCV"/>
+                <constraint firstItem="WFt-KE-Vcw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Ivp-e7-NfM"/>
+                <constraint firstItem="Pbj-Sv-Aav" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="MPb-6V-nSV"/>
+                <constraint firstAttribute="trailing" secondItem="WFt-KE-Vcw" secondAttribute="trailing" constant="5" id="VS7-hx-eZf"/>
+                <constraint firstItem="UeX-Xo-H8x" firstAttribute="top" secondItem="ceN-Ti-mbd" secondAttribute="bottom" constant="8" id="YiC-jm-sL8"/>
+                <constraint firstItem="ceN-Ti-mbd" firstAttribute="top" secondItem="Pbj-Sv-Aav" secondAttribute="top" id="dPL-Zk-z6R"/>
+                <constraint firstItem="UeX-Xo-H8x" firstAttribute="leading" secondItem="ceN-Ti-mbd" secondAttribute="leading" id="jEb-gA-n9q"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-37.5" y="-47"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mainCellBackground" width="50" height="50"/>
+        <image name="t3" width="683" height="510"/>
+    </resources>
+</document>
